@@ -1,0 +1,168 @@
+ques_id	ques_category	ques_group	ans_type	ques_text_short	ques_text
+1	START OF SURVEY	1	1	Have you been diagnosed with CD?	Have you been diagnosed with CD?
+2	START OF SURVEY	2	1	Has your child been diagnosed with CD?	Has your child been diagnosed with CD?
+3	START OF SURVEY	3	2	Age	Age
+4	CD QOL 19 and Above	4	3	I feel limited by this disease.	I feel limited by this disease.
+5	CD QOL 19 and Above	5	3	I feel worried that I will suffer from this disease.	I feel worried that I will suffer from this disease.
+6	CD QOL 19 and Above	6	3	I feel concerned that this disease will cause other health problems.	I feel concerned that this disease will cause other health problems.
+7	CD QOL 19 and Above	7	3	I feel worried about my increased risk of cancer from this disease.	I feel worried about my increased risk of cancer from this disease.
+8	CD QOL 19 and Above	8	3	I feel socially stigmatized for having this disease.	I feel socially stigmatized for having this disease.
+9	CD QOL 19 and Above	9	3	I feel like I am limited eating meals with coworkers.	I feel like I am limited eating meals with coworkers.
+10	CD QOL 19 and Above	10	3	I feel like I am not able to have special foods like birthday cake and pizza.	I feel like I am not able to have special foods like birthday cake and pizza.
+11	CD QOL 19 and Above	11	3	I feel that the diet is sufficient treatment for my disease.	I feel that the diet is sufficient treatment for my disease.
+12	CD QOL 19 and Above	12	3	I feel that there are not enough choices for treatment.	I feel that there are not enough choices for treatment.
+13	CD QOL 19 and Above	13	3	I feel depressed because of my disease.	I feel depressed because of my disease.
+14	CD QOL 19 and Above	14	3	I feel frightened by having this disease.	I feel frightened by having this disease.
+15	CD QOL 19 and Above	15	3	I feel like I don't know enough about this disease.	I feel like I don't know enough about this disease.
+16	CD QOL 19 and Above	16	3	I feel overwhelmed about having this disease.	I feel overwhelmed about having this disease.
+17	CD QOL 19 and Above	17	3	I find it difficult to travel or take long trips because of my disease.	I find it difficult to travel or take long trips because of my disease.
+18	CD QOL 19 and Above	18	3	I feel like I cannot live a normal life because of my disease.	I feel like I cannot live a normal life because of my disease.
+19	CD QOL 19 and Above	19	3	I feel afraid to go out because my food may be contaminated.	I feel afraid to go out because my food may be contaminated.
+20	CD QOL 19 and Above	20	3	I feel worried about the increased risk of one of my family members having celiac disease.	I feel worried about the increased risk of one of my family members having celiac disease.
+21	CD QOL 19 and Above	21	3	I feel like I think about food all the time.	I feel like I think about food all the time.
+22	CD QOL 19 and Above	22	3	I feel concerned that my long-term health will be affected.	I feel concerned that my long-term health will be affected.
+23	CSI 13 and Above	23	4	Have you been bothered by pain or discomfort in the upper abdomen or the pit of the stomach during the past 4 weeks?	Have you been bothered by pain or discomfort in the upper abdomen or the pit of the stomach during the past 4 weeks?
+24	CSI 13 and Above	24	4	Have you been bothered by nausea during the past 4 weeks?	Have you been bothered by nausea during the past 4 weeks?
+25	CSI 13 and Above	25	4	Have you been bothered by rumbling in the stomach during the past 4 weeks?	Have you been bothered by rumbling in the stomach during the past 4 weeks?
+26	CSI 13 and Above	26	4	Has your stomach felt bloated during the past 4 weeks?	Has your stomach felt bloated during the past 4 weeks?
+27	CSI 13 and Above	27	4	Have you been bothered by diarrhea during the past 4 weeks?	Have you been bothered by diarrhea during the past 4 weeks?
+28	CSI 13 and Above	28	4	When going on the toilet, have you had the sensation of not completely empying your bowels during the past 4 weeks?	When going on the toilet, have you had the sensation of not completely empying your bowels during the past 4 weeks?
+29	CSI 13 and Above	29	4	Have you been bothered by hunger pains during the past 4 weeks?	Have you been bothered by hunger pains during the past 4 weeks?
+30	CSI 13 and Above	30	4	Have you been bothered by low energy levels during the past 4 weeks?	Have you been bothered by low energy levels during the past 4 weeks?
+31	CSI 13 and Above	31	4	Have you been bothered by headaches during the past 4 weeks?	Have you been bothered by headaches during the past 4 weeks?
+32	CSI 13 and Above	32	4	Have you had food cravings in the past 4 weeks?	Have you had food cravings in the past 4 weeks?
+33	CSI 13 and Above	33	4	Have you had loss of appetite during the past 4 weeks?	Have you had loss of appetite during the past 4 weeks?
+34	CSI 13 and Above	34	22	Related to celiac disease, how is your health?	Related to celiac disease, how is your health?
+35	CSI 13 and Above	35	22	Overall, how is your health?	Overall, how is your health?
+36	CSI 13 and Above	36	5	I am comfortable.	I am comfortable.
+37	CSI 13 and Above	37	5	I am as healthy as anybody I know.	I am as healthy as anybody I know.
+38	CDAT 13 and Above	38		Have you been bothered by low energy levels during the past 4 weeks?	Have you been bothered by low energy levels during the past 4 weeks?
+39	CDAT 13 and Above	39		Have you been bothered by headaches during the past 4 weeks?	Have you been bothered by headaches during the past 4 weeks?
+40	CDAT 13 and Above	40	5	I am able to follow a gluten-free diet when dining outside my home.	I am able to follow a gluten-free diet when dining outside my home.
+41	CDAT 13 and Above	41	5	Before I do something I carefully consider the consequences.	Before I do something I carefully consider the consequences.
+42	CDAT 13 and Above	42	5	I do not consider myself a failure.	I do not consider myself a failure.
+43	CDAT 13 and Above	43	6	How important to your health are accidental gluten exposures?	How important to your health are accidental gluten exposures?
+44	CDAT 13 and Above	44	7	Over the past 4 weeks, how many times have you eaten foods containing gluten on purpose?	Over the past 4 weeks, how many times have you eaten foods containing gluten on purpose?
+45	Gluten-Free Diet C-GOOD All Ages	45	8	Do you or your child eat gluten voluntarily?	Do you or your child eat gluten voluntarily?
+46	Gluten-Free Diet C-GOOD All Ages	46	9	Do you or your child check the labels of package food?	Do you or your child check the labels of package food?
+47	Gluten-Free Diet C-GOOD All Ages	47	10	How often do you check the ingredients in non-food and non-beverage products such as medications, lipstick, toothpaste and hand and body lotions before ingesting or applying?	How often do you check the ingredients in non-food and non-beverage products such as medications, lipstick, toothpaste and hand and body lotions before ingesting or applying?
+48	Natural Course of CD All Ages	48	11	As an infant, how were you or your child fed? If breastfed, please tell us the estimated length of time.	As an infant, how were you or your child fed? If breastfed, please tell us the estimated length of time.
+49	Natural Course of CD All Ages	48	12	As an infant, how were you or your child fed? If breastfed, please tell us the estimated length of time. IF BREASTFED, PLEASE SPECIFY LENGTH OF TIME	As an infant, how were you or your child fed? If breastfed, please tell us the estimated length of time. IF BREASTFED, PLEASE SPECIFY LENGTH OF TIME
+50	Natural Course of CD All Ages	49	1	Do you know how old you or your child were when gluten was introduced into the diet? YES/1 OR NO/2	Do you know how old you or your child were when gluten was introduced into the diet? YES/1 OR NO/2
+51	Natural Course of CD All Ages	49	12	AGE OF GLUTEN INTRODUCTION	AGE OF GLUTEN INTRODUCTION
+52	Natural Course of CD All Ages	50	13	What was your or your child's mode of birth?	What was your or your child's mode of birth?
+53	Natural Course of CD All Ages	51	14	Growing up, did you or your child use antibiotics often?	Growing up, did you or your child use antibiotics often?
+54	Natural Course of CD All Ages	52	15	Please think about the primary environment or setting in which you or your child grew up. Which is the best description?	Please think about the primary environment or setting in which you or your child grew up. Which is the best description?
+55	Natural Course of CD All Ages	53	1	Did you or your child have pets (of any kind, either indoor or outdoor) growing up?	Did you or your child have pets (of any kind, either indoor or outdoor) growing up?
+56	Dx and Mgmt All Ages	54	16	How were you or your child diagnosed with celiac disease? 	How were you or your child diagnosed with celiac disease? 
+57	Dx and Mgmt All Ages	55	1	Blood test	Please tell us what, if any, tests were used to diagnose you or your child with CD. Select all that apply. BLOOD TEST
+58	Dx and Mgmt All Ages	55	1	Endo and biopsy	Please tell us what, if any, tests were used to diagnose you or your child with CD. Select all that apply. ENDO AND BX
+59	Dx and Mgmt All Ages	55	1	HLA typing / genetic test	Please tell us what, if any, tests were used to diagnose you or your child with CD. Select all that apply. HLA TYPING/GENETIC TESTING
+60	Dx and Mgmt All Ages	55	1	gluten challenge	Please tell us what, if any, tests were used to diagnose you or your child with CD. Select all that apply. GLUTEN CHALLENGE
+61	Dx and Mgmt All Ages	55	1	I don't know.	Please tell us what, if any, tests were used to diagnose you or your child with CD. Select all that apply. I DON'T KNOW
+62	Dx and Mgmt All Ages	56	1	TTG	If you know the specific names of the blood tests used, please specify. TTG
+63	Dx and Mgmt All Ages	56	1	DGP	If you know the specific names of the blood tests used, please specify. DGP
+64	Dx and Mgmt All Ages	56	1	EMA	If you know the specific names of the blood tests used, please specify. EMA
+65	Dx and Mgmt All Ages	56	1	AGA	If you know the specific names of the blood tests used, please specify. AGA
+66	Dx and Mgmt All Ages	56	1	I don't know.	If you know the specific names of the blood tests used, please specify. I DON'T KNOW
+67	Dx and Mgmt All Ages	56	12	Other - specify.	If you know the specific names of the blood tests used, please specify. OTHER - SPECIFY
+68	Dx and Mgmt All Ages	57	12	In years, what was the age you or your child when diagnosed with celiac disease?	In years, what was the age you or your child when diagnosed with celiac disease?
+69	Dx and Mgmt All Ages	58	1	When diagnosed, were you or your child told you would outgrow celiac disease?	When diagnosed, were you or your child told you would outgrow celiac disease?
+70	Dx and Mgmt All Ages	59	1	another autoimmune disease	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Another autoimmune disease, such as Type 1 diabetes, Thyroiditis, or Inflammatory Bowel Disease (IBD)
+71	Dx and Mgmt All Ages	59	1	ataxia	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Ataxia
+72	Dx and Mgmt All Ages	59	1	bloating, gas, abd pain	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Bloating, gas, abd pain
+73	Dx and Mgmt All Ages	59	1	bone loss	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Bone Loss
+74	Dx and Mgmt All Ages	59	1	constipation	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Constipation
+75	Dx and Mgmt All Ages	59	1	delayed growth or puberty	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Delayed growth or puberty (children)
+76	Dx and Mgmt All Ages	59	1	depression or anxiety	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Depression or Anxiety
+77	Dx and Mgmt All Ages	59	1	diarrhea	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Diarrhea
+78	Dx and Mgmt All Ages	59	1	discolored teeth or loss of enamel	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Discolored teeth or loss of enamel
+79	Dx and Mgmt All Ages	59	1	dry mouth	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Dry Mouth
+80	Dx and Mgmt All Ages	59	1	elevated liver enzymes	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Elevated Liver Enzymes
+81	Dx and Mgmt All Ages	59	1	fatigue	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Fatigue
+82	Dx and Mgmt All Ages	59	1	foul smelling, hard to flush or bulky stools	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Foul smelling, hard to flush or bulky stools
+83	Dx and Mgmt All Ages	59	1	headaches or migraines	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Headaches or migraines
+84	Dx and Mgmt All Ages	59	1	indigestion	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Indigestion
+85	Dx and Mgmt All Ages	59	1	IBS	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? IBS
+86	Dx and Mgmt All Ages	59	1	irritability or behavior changes	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Irritability or behavior changes
+87	Dx and Mgmt All Ages	59	1	itchy skin rash	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Itchy Skin Rash
+88	Dx and Mgmt All Ages	59	1	lactose intolerance	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Lactose Intolerance
+89	Dx and Mgmt All Ages	59	1	low albumin	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Low albumin 
+90	Dx and Mgmt All Ages	59	1	low copper	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Low Copper
+91	Dx and Mgmt All Ages	59	1	low folic acid	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Low Folic Acid
+92	Dx and Mgmt All Ages	59	1	low iron / anemia	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Low Iron/Anemia
+93	Dx and Mgmt All Ages	59	1	low vitamin B12	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Low Vitamin B12
+94	Dx and Mgmt All Ages	59	1	low vitamin D	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Low Vitamin D
+95	Dx and Mgmt All Ages	59	1	low zinc	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Low Zinc
+96	Dx and Mgmt All Ages	59	1	malabsorption	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Malabsorption
+97	Dx and Mgmt All Ages	59	1	mouth ulcers	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Mouth Ulcers
+98	Dx and Mgmt All Ages	59	1	pain in multiple joints	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Pain in multiple joints
+99	Dx and Mgmt All Ages	59	1	short stature (children)	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Short Stature (children)
+100	Dx and Mgmt All Ages	59	1	unexplained infertility or miscarriages	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Unexplained infertility or miscarriages
+101	Dx and Mgmt All Ages	59	1	weight gain	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Weight gain
+102	Dx and Mgmt All Ages	59	1	weight loss	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? Weight Loss
+103	Dx and Mgmt All Ages	59	1	none	What signs, symptoms or conditions did you or your child experience before the celiac disease diagnosis? None - Asymptomatic at Diagnosis
+104	Dx and Mgmt All Ages	60	12	From the time your or your child's symptoms began, how long did it take to receive a proper diagnosis of celiac disease? I DON'T KNOW OR LENGTH OF TIME.	From the time your or your child's symptoms began, how long did it take to receive a proper diagnosis of celiac disease? I DON'T KNOW OR LENGTH OF TIME.
+105	Dx and Mgmt All Ages	60	12	From the time your or your child's symptoms began, how long did it take to receive a proper diagnosis of celiac disease? Please specify in either months or years, e.g. 3 months or 3 years.	From the time your or your child's symptoms began, how long did it take to receive a proper diagnosis of celiac disease? Please specify in either months or years, e.g. 3 months or 3 years.
+106	Dx and Mgmt All Ages	61	17	Who first diagnosed you or your child with celiac disease?	Who first diagnosed you or your child with celiac disease?
+107	Dx and Mgmt All Ages	61	12	Who first diagnosed you or your child with celiac disease? OTHER OPEN ENDED	Who first diagnosed you or your child with celiac disease? OTHER OPEN ENDED
+108	Dx and Mgmt All Ages	62	18	Please think about your or your child's current overall health such as energy, mood and physical health. Generally, how do you or your child feel since diagnosis?	Please think about your or your child's current overall health such as energy, mood and physical health. Generally, how do you or your child feel since diagnosis?
+109	Dx and Mgmt All Ages	63	17	Who do you consider your or your child's main healthcare provider when it comes to managing celiac disease?	Who do you consider your or your child's main healthcare provider when it comes to managing celiac disease?
+110	Dx and Mgmt All Ages	63	12	Who do you consider your or your child's main healthcare provider when it comes to managing celiac disease? OTHER OPEN ENDED	Who do you consider your or your child's main healthcare provider when it comes to managing celiac disease? OTHER OPEN ENDED
+111	Dx and Mgmt All Ages	64	19	In the past 5 years, have you specifically visited about or discussed management of your or your child's celiac disease with a healthcare provider? This may include talking about symptoms, the gluten-free diet or complications of celiac disease.	In the past 5 years, have you specifically visited about or discussed management of your or your child's celiac disease with a healthcare provider? This may include talking about symptoms, the gluten-free diet or complications of celiac disease.
+112	Dx and Mgmt All Ages	64	12	If yes, estimate of how many times person/child has visited with HCP in past 5 years about celiac disease.	If yes, estimate of how many times person/child has visited with HCP in past 5 years about celiac disease.
+113	Dx and Mgmt All Ages	65	1	Haven't needed to	If you haven't visited a healthcare provider within the past 5 years to specifically discuss or manage your or your child's celiac disease, what are your reasons? Please select all that apply. I haven't had a reason to see my healthcare provider.
+114	Dx and Mgmt All Ages	65	1	Don't trust healthcare providers	If you haven't visited a healthcare provider within the past 5 years to specifically discuss or manage your or your child's celiac disease, what are your reasons? Please select all that apply. I don't trust healthcare providers.
+115	Dx and Mgmt All Ages	65	1	Provider not knowledgeable	If you haven't visited a healthcare provider within the past 5 years to specifically discuss or manage your or your child's celiac disease, what are your reasons? Please select all that apply. I haven't found my or my child's healthcare provider(s) to be knowledgeable about celiac disease.
+116	Dx and Mgmt All Ages	65	1	Previous visits not helpful	If you haven't visited a healthcare provider within the past 5 years to specifically discuss or manage your or your child's celiac disease, what are your reasons? Please select all that apply. I haven't found previous visits to be helpful.
+117	Dx and Mgmt All Ages	65	1	Doing fine on my own	If you haven't visited a healthcare provider within the past 5 years to specifically discuss or manage your or your child's celiac disease, what are your reasons? Please select all that apply. I believe I am or my child is doing a good job of managing celiac disease on my/their own.
+118	Dx and Mgmt All Ages	65	1	Uninsured	If you haven't visited a healthcare provider within the past 5 years to specifically discuss or manage your or your child's celiac disease, what are your reasons? Please select all that apply. For financial reasons - I am uninsured.
+119	Dx and Mgmt All Ages	65	1	Co-pay is too high	If you haven't visited a healthcare provider within the past 5 years to specifically discuss or manage your or your child's celiac disease, what are your reasons? Please select all that apply. For financial reasons - I am insured, but the co-pay is too high.
+120	Dx and Mgmt All Ages	65	1	I have visited a healthcare provider within the past 5 years.	If you haven't visited a healthcare provider within the past 5 years to specifically discuss or manage your or your child's celiac disease, what are your reasons? Please select all that apply. I have visited a healthcare provider within the past 5 years.
+121	Dx and Mgmt All Ages	65	12	Other reason.	If you haven't visited a healthcare provider within the past 5 years to specifically discuss or manage your or your child's celiac disease, what are your reasons? Please select all that apply. OTHER REASON.
+122	Dx and Mgmt All Ages	66	1	type 1 diabetes	Do you or your child have any other autoimmune or other diseases? Please check all that apply. Type 1 Diabetes
+123	Dx and Mgmt All Ages	66	1	dermatitis herpetiformis	Do you or your child have any other autoimmune or other diseases? Please check all that apply. Dermatitis Herpetiformis
+124	Dx and Mgmt All Ages	66	1	hypo- or hyperthyroidism	Do you or your child have any other autoimmune or other diseases? Please check all that apply. Thyroid disease (hypo/hyperthyroidism)
+125	Dx and Mgmt All Ages	66	1	autoimmune liver disease	Do you or your child have any other autoimmune or other diseases? Please check all that apply. AUTOIMMUNE LIVER DISEASE
+126	Dx and Mgmt All Ages	66	1	rheumatoid arthritis	Do you or your child have any other autoimmune or other diseases? Please check all that apply. RHEUMATOID ARTHRITIS
+127	Dx and Mgmt All Ages	66	1	psoriasis	Do you or your child have any other autoimmune or other diseases? Please check all that apply. PSORIASIS
+128	Dx and Mgmt All Ages	66	1	sjogren's	Do you or your child have any other autoimmune or other diseases? Please check all that apply. SJOGREN'S
+129	Dx and Mgmt All Ages	66	1	osteoporosis or osteopenia	Do you or your child have any other autoimmune or other diseases? Please check all that apply. OSTEOPOROSIS OR OSTEOPENIA
+130	Dx and Mgmt All Ages	66	1	none	Do you or your child have any other autoimmune or other diseases? Please check all that apply. NONE
+131	Dx and Mgmt All Ages	66	12	other - specify	Do you or your child have any other autoimmune or other diseases? Please check all that apply. OTHER - SPECIFY
+132	Dx and Mgmt All Ages	67	14	Other than you or your child on behalf of whom you're completing this survey, have any of your blood relatives been diagnosed with CD?	Other than you or your child on behalf of whom you're completing this survey, have any of your blood relatives been diagnosed with CD?
+133	Dx and Mgmt All Ages	68	1	None have been diagnosed.	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. None have been dxed
+134	Dx and Mgmt All Ages	68	1	mother	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Mother
+135	Dx and Mgmt All Ages	68	1	father	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Father
+136	Dx and Mgmt All Ages	68	1	sibling	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Sibling
+137	Dx and Mgmt All Ages	68	1	other child	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Other Child
+138	Dx and Mgmt All Ages	68	1	aunt	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Aunt
+139	Dx and Mgmt All Ages	68	1	uncle	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Uncle
+140	Dx and Mgmt All Ages	68	1	niece	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Niece
+141	Dx and Mgmt All Ages	68	1	nephew	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Nephew
+142	Dx and Mgmt All Ages	68	1	grandfather	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Grandfather
+143	Dx and Mgmt All Ages	68	1	grandmother	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Grandmother
+144	Dx and Mgmt All Ages	68	1	cousin	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Cousin
+145	Dx and Mgmt All Ages	68	1	half-sibling	If other blood relatives have been diagnosed with celiac disease (excluding the person on behalf of whom you're completing this survey, e.g. your child), please identify the relation. Half-Sibling
+146	Dx and Mgmt All Ages	69	1	hypo- or hyperthyroidism	Have any of your blood relatives been diagnosed with any of the following autoimmune or other diseases? Please select all that apply. Thyroid disease (hypo/hyperthryoidism)
+147	Dx and Mgmt All Ages	69	1	autoimmune liver disease	Have any of your blood relatives been diagnosed with any of the following autoimmune or other diseases? Please select all that apply. Autoimmune Liver Disease
+148	Dx and Mgmt All Ages	69	1	type 1 diabetes	Have any of your blood relatives been diagnosed with any of the following autoimmune or other diseases? Please select all that apply. Type 1 Diabetes
+149	Dx and Mgmt All Ages	69	1	dermatitis herpetiformis	Have any of your blood relatives been diagnosed with any of the following autoimmune or other diseases? Please select all that apply. Dermatitis Herpetiformis
+150	Dx and Mgmt All Ages	69	1	rheumatoid arthritis	Have any of your blood relatives been diagnosed with any of the following autoimmune or other diseases? Please select all that apply. Rheumatoid Arthritis
+151	Dx and Mgmt All Ages	69	1	psoriasis	Have any of your blood relatives been diagnosed with any of the following autoimmune or other diseases? Please select all that apply. Psoriasis
+152	Dx and Mgmt All Ages	69	1	sjogren's	Have any of your blood relatives been diagnosed with any of the following autoimmune or other diseases? Please select all that apply. Sjogren's
+153	Dx and Mgmt All Ages	69	1	osteoporosis or osteopenia	Have any of your blood relatives been diagnosed with any of the following autoimmune or other diseases? Please select all that apply. Osteopenia or osteoporisis
+154	Dx and Mgmt All Ages	69	1	none	Have any of your blood relatives been diagnosed with any of the following autoimmune or other diseases? Please select all that apply. None
+155	Dx and Mgmt All Ages	69	1	other - specify	Have any of your blood relatives been diagnosed with any of the following autoimmune or other diseases? Please select all that apply. OTHER PLEASE SPECIFY
+156	Dx and Mgmt All Ages	69	1	lymphoma	Have any of your blood relatives been diagnosed with the following illnesses or conditions? Please select all that apply. Lymphoma (a cancer of a part of the immune system called the lymph system)
+157	Dx and Mgmt All Ages	69	1	small intestinal cancer	Have any of your blood relatives been diagnosed with the following illnesses or conditions? Please select all that apply. Small intestinal cancer
+158	Dx and Mgmt All Ages	69	1	esophageal cancer	Have any of your blood relatives been diagnosed with the following illnesses or conditions? Please select all that apply. Esophageal Cancer
+159	Dx and Mgmt All Ages	69	1	pharyngeal cancer	Have any of your blood relatives been diagnosed with the following illnesses or conditions? Please select all that apply. Pharyngeal Cancer
+160	Dx and Mgmt All Ages	69	1	thyroid cancer	Have any of your blood relatives been diagnosed with the following illnesses or conditions? Please select all that apply. Thyroid Cancer
+161	Dx and Mgmt All Ages	69	1	colon cancer	Have any of your blood relatives been diagnosed with the following illnesses or conditions? Please select all that apply. Colon Cancer
+162	Dx and Mgmt All Ages	69	1	pancreatic cancer	Have any of your blood relatives been diagnosed with the following illnesses or conditions? Please select all that apply. Pancreatic Cancer
+163	Dx and Mgmt All Ages	69	1	hematologic cancer	Have any of your blood relatives been diagnosed with the following illnesses or conditions? Please select all that apply. Hematologic cancers (such as leukemia or myeloma)
+164	Dx and Mgmt All Ages	69	1	none	Have any of your blood relatives been diagnosed with the following illnesses or conditions? Please select all that apply. None
+165	Final Demographics All Ages	70	20	What is your or your child's sex?	What is your or your child's sex?
+166	Final Demographics All Ages	71	21	What is your race?	What is your race?
+167	Final Demographics All Ages	72	12	What is your state of residence?	What is your state of residence?

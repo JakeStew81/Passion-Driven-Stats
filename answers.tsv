@@ -1,0 +1,95 @@
+ans_type	ans_num	ans_text_short	ans_text
+1	1	yes	yes
+1	2	no	no
+2	1	0-7	0-7
+2	2	8-12	8-12
+2	3	13-18	13-18
+2	4	19-25	19-25
+2	5	26-35	26-35
+2	6	36-45	36-45
+2	7	46-55	46-55
+2	8	56-65	56-65
+2	9	over 65	over 65
+3	1	not at all	not at all
+3	2	slightly	slightly
+3	3	moderately	moderately
+3	4	quite a bit	quite a bit
+3	5	a great deal	a great deal
+4	1	none of the time	none of the time
+4	2	little of the time	little of the time
+4	3	some of the time	some of the time
+4	4	most of the time	most of the time
+4	5	all of the time	all of the time
+22	1	excellent	excellent
+22	2	good	good
+22	3	fair	fair
+22	4	poor	poor
+22	5	terrible	terrible
+5	1	strongly agree	strongly agree
+5	2	somewhat agree	somewhat agree
+5	3	neither agree nor disagree	neither agree nor disagree
+5	4	somewhat disagree	somewhat disagree
+5	5	strongly disagree	strongly disagree
+6	1	very important	very important
+6	2	somewhat important	somewhat important
+6	3	neutral / unsure	neutral / unsure
+6	4	a little important	a little important
+6	5	not at all important	not at all important
+7	1	0 (never)	0 (never)
+7	2	1 to 2	1 to 2
+7	3	3 to 5	3 to 5
+7	4	6 to 10	6 to 10
+7	5	more than 10	more than 10
+8	1	Yes, a normal portion.	Yes, a normal portion.
+8	2	Yes, often just a taste.	Yes, often just a taste (Cannot recall when and how many times I/my child ate gluten).
+8	3	Yes, rarely a taste.	Yes, rarely a taste (Can remember when and how many times I/my child ate gluten).
+8	4	No, AND I will NOT tell the person who is cooking about my disease.	No, AND I will NOT tell the person who is cooking about my disease.
+8	5	No, AND I WILL tell the person who is cooking about my disease.	No, AND I WILL tell the person who is cooking about my disease.
+9	1	No, I or they do not check.	No, I or they do not check.
+9	2	Yes, I or they do check and will ONLY eat package food certified by a gluten­free certification body.	Yes, I or they do check and will ONLY eat package food certified by a gluten­free certification body.
+9	3	Yes, I or they do check and a package food does NOT have to be certified by a gluten­free certification body.	Yes, I or they do check and a package food does NOT have to be certified by a gluten­free certification body in order for me or my child to eat it.
+10	1	never	never
+10	2	almost never	almost never
+10	3	sometimes	sometimes
+10	4	often	often
+10	5	almost always	almost always
+11	1	breastfed only	breastfed only
+11	2	formula fed only	formula fed only
+11	3	both	both
+11	4	I don't know	I don't know
+12		<free text>	<free text>
+13	1	emergency c-section	emergency c-section
+13	2	scheduled c-section	scheduled c-section
+13	3	vaginal birth	vaginal birth
+13	4	I don't know	I don't know
+14	1	yes	yes
+14	2	no	no
+14	3	I don't know	I don't know
+15	1	Urban	In an urban setting, e.g. heavily populated area like a metropolitan city
+15	2	Rural	In a rural setting, e.g. farmland
+15	3	Neither urban nor rural	Neither urban nor rural
+15	4	I don't know	I don't know
+16	1	Clinical diagnosis by a physician	Clinical diagnosis by a physician based on symptoms
+16	2	Self_diagnosed	Self_diagnosed based on symptoms
+17	1	Pediatrician	Pediatrician
+17	2	Primary care provider	Family physician or primary care provider, e.g. nurse practitioner
+17	3	Gastroenterologist	Gastroenterologist
+17	4	Dietitian or nutritionist	Registered dietitian or nutritionist
+17	5	Other	Other (specify)
+18	1	Better	Better
+18	2	Worse	Worse
+18	3	The same	The same
+19	1	No	No
+19	2	I don't remember	I don't remember
+19	3	Not applicable - Diagnosis occurred within past 5 years	Not applicable - Diagnosis occurred within past 5 years
+19	4	Other	Other (specify)
+20	1	male	male
+20	2	female	female
+21	1	White or Caucasian	White or Caucasian
+21	2	Hispanic or Latino	Hispanic or Latino
+21	3	Black or African American	Black or African American
+21	4	Asian or Pacific Islander	Asian or Pacific Islander
+21	5	Indian	Indian
+21	6	Native American or American Indian	Native American or American Indian
+21	7	Other	Other
+21	8	Prefer not to say	Prefer not to say

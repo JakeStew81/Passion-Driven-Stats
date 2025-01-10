@@ -3,13 +3,31 @@ setwd("C:/Users/jake/Dev/PassionDrivenStats")
 library(readr)
 library(descr)
 library(Hmisc)
+library(Dict)
 
 responses <- read_tsv('responses.tsv', col_types=cols())
 
-print(which(grepl("2009", responses$`68`)))
+data <- responses[responses$'3' != 9, c('3', '68', '19')]
 
-data <- subset(responses, grepl("", responses$`68`))
+data <- na.omit(data)
 
-data <- data[c('3', '68', '19')]
+ageCategoryToMedian <- c(
+  3.5,
+  10,
+  15.5,
+  22,
+  30.5,
+  40.5,
+  50.5,
+  60.5
+)
+
+data <- transform(data, timeWD =  as.numeric(ageCategoryToMedian[data$'3']) - as.numeric(data$'68'))
+
+colnames(data) <- c("Age", "AgeOD", "FearCC", "TimeWD")
 
 View(data)
+
+freq(data$Age)
+freq(data$TimeWD)
+freq(data$FearCC)

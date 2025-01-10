@@ -1,13 +1,15 @@
-setwd("~/Dev/PassionDrivenStats")
+setwd("C:/Users/jake/Dev/PassionDrivenStats")
 
 library(readr)
 library(descr)
 library(Hmisc)
 
-responses = read_tsv('responses.tsv', col_types=cols())
+responses <- read_tsv('responses.tsv', col_types=cols())
 
-Veiw(responses)
+print(which(grepl("2009", responses$`68`)))
 
-label(responses$"3")<-"Age"
+data <- subset(responses, grepl("", responses$`68`))
 
-freq(responses$"3")
+data <- data[c('3', '68', '19')]
+
+View(data)

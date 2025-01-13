@@ -24,6 +24,11 @@ ageCategoryToMedian <- c(
 
 data <- transform(data, timeWD =  as.numeric(ageCategoryToMedian[data$'3']) - as.numeric(data$'68'))
 
+data$timeWD <- cut(data$timeWD,
+                   c("-6", "2", "5.5", "9", "61"),
+                   include.lowest = T,
+                   right = F)
+
 colnames(data) <- c("Age", "AgeOD", "FearCC", "TimeWD")
 
 View(data)

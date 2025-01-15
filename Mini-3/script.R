@@ -1,6 +1,7 @@
-setwd("C:/Users/jake/Dev/PassionDrivenStats/Mini-3")
+pesetwd("C:/Users/jake/Dev/PassionDrivenStats/Mini-3")
 
 library(descr)
+library(ggplot2)
 
 data <- read.csv("HELP.csv")
 
@@ -12,6 +13,4 @@ data <- transform(data, HomelessStatus =  ifelse(data$homeless == "homeless", 1,
 
 data <- transform(data, RiskTotal =  data$ExtremeMCS + data$SuicidalThought + data$HomelessStatus)
 
-freq(data$ExtremeMCS)
-freq(data$SuicidalThought)
-freq(data$RiskTotal)
+ggplot(data, aes(x = ExtremeMCS)) + geom_bar(stat = "count") + ggtitle("Extreme MCS Frequency")

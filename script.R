@@ -5,7 +5,7 @@ library(descr)
 library(Hmisc)
 library(plyr)
 
-# Load data
+# Load data-
 responses <- read_tsv('responses.tsv', col_types=cols())
 
 # Subset, both reducing columns and getting rid of bad data from the 9th age group (error on survey)

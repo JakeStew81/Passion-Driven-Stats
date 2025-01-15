@@ -4,6 +4,7 @@ library(readr)
 library(descr)
 library(Hmisc)
 library(plyr)
+library(ggplot2)
 
 # Load data-
 responses <- read_tsv('responses.tsv', col_types=cols())
@@ -43,7 +44,10 @@ data$Age <- as.factor(data$Age)
 
 data$Age <- revalue(data$Age, c("4" = "19-25", "5" = "26-35", "6" = "36-45", "7" = "46-55", "8" = "56-65"))
 
-# Output both tables and histograms
-freq(data$Age)
-freq(data$TimeWD)
-freq(data$FearCC)
+# Create plots
+ggplot(data, aes(x = Age)) + geom_bar(aes(y = (..count..)/sum(..count..))) +
+  scale_y_continuous(labels=scales::percent) + ylab("Percentage") + xlab("Age (Years)")
+ggplot(data, aes(x = TimeWD)) + geom_bar(aes(y = (..count..)/sum(..count..))) +
+  scale_y_continuous(labels=scales::percent) + ylab("Percentage") + xlab("Time With Disease (Years)")
+ggplot(data, aes(x = FearCC)) + geom_bar(aes(y = (..count..)/sum(..count..))) +
+  scale_y_continuous(labels=scales::percent) + ylab("Percentage") + xlab("Fear of Cross-Contamination")

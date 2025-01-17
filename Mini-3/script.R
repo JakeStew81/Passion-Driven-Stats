@@ -1,4 +1,4 @@
-pesetwd("C:/Users/jake/Dev/PassionDrivenStats/Mini-3")
+setwd("C:/Users/jake/Dev/PassionDrivenStats/Mini-3")
 
 library(descr)
 library(ggplot2)

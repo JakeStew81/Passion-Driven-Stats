@@ -44,10 +44,14 @@ data$Age <- as.factor(data$Age)
 
 data$Age <- revalue(data$Age, c("4" = "19-25", "5" = "26-35", "6" = "36-45", "7" = "46-55", "8" = "56-65"))
 
+# Collapse FearCC into binary options
+data <- transform(data, HighCCFear = as.factor(ifelse(FearCC > 3, "Fears CC", "Does not fear CC")))
+
 # Create plots
-ggplot(data, aes(x = Age)) + geom_bar(aes(y = (..count..)/sum(..count..))) +
-  scale_y_continuous(labels=scales::percent) + ylab("Percentage") + xlab("Age (Years)")
-ggplot(data, aes(x = TimeWD)) + geom_bar(aes(y = (..count..)/sum(..count..))) +
-  scale_y_continuous(labels=scales::percent) + ylab("Percentage") + xlab("Time With Disease (Years)")
-ggplot(data, aes(x = FearCC)) + geom_bar(aes(y = (..count..)/sum(..count..))) +
-  scale_y_continuous(labels=scales::percent) + ylab("Percentage") + xlab("Fear of Cross-Contamination")
+ggplot(data, aes(TimeWD, (..count..)/sum(..count..))) + geom_bar(aes(fill = HighCCFear), position = "dodge") +
+  ylab("%") + xlab("Time Since Diagnosis") + scale_y_continuous(labels=scales::percent) +
+  ggtitle("Time Since Diagnosis and Fear of Cross-Contamination")
+
+ggplot(data, aes(Age, (..count..)/sum(..count..))) + geom_bar(aes(fill = HighCCFear), position = "dodge") +
+  ylab("%") + xlab("Age") + scale_y_continuous(labels=scales::percent) +
+  ggtitle("Age and Fear of Cross-Contamination")

@@ -44,14 +44,8 @@ data$Age <- as.factor(data$Age)
 
 data$Age <- revalue(data$Age, c("4" = "19-25", "5" = "26-35", "6" = "36-45", "7" = "46-55", "8" = "56-65"))
 
-# Collapse FearCC into binary options
-data <- transform(data, HighCCFear = as.factor(ifelse(FearCC > 3, "Fears CC", "Does not fear CC")))
+contingencyTable <- table(data$TimeWD, data$FearCC)
 
-# Create plots
-ggplot(data, aes(TimeWD, (..count..)/sum(..count..))) + geom_bar(aes(fill = HighCCFear), position = "dodge") +
-  ylab("%") + xlab("Time Since Diagnosis") + scale_y_continuous(labels=scales::percent) +
-  ggtitle("Time Since Diagnosis and Fear of Cross-Contamination")
+print(contingencyTable)
 
-ggplot(data, aes(Age, (..count..)/sum(..count..))) + geom_bar(aes(fill = HighCCFear), position = "dodge") +
-  ylab("%") + xlab("Age") + scale_y_continuous(labels=scales::percent) +
-  ggtitle("Age and Fear of Cross-Contamination")
+print(chisq.test(contingencyTable))

@@ -5,6 +5,8 @@ library(descr)
 library(Hmisc)
 library(plyr)
 library(ggplot2)
+library(RVAideMemoire)
+library(rcompanion)
 
 # Load data-
 responses <- read_tsv('responses.tsv', col_types=cols())
@@ -33,19 +35,37 @@ data <- transform(data, timeWD =  as.numeric(ageCategoryToMedian[data$'3']) - as
 # Rename columns
 colnames(data) <- c("Age", "AgeOD", "FearCC", "TimeWD")
 
-# Bin timeWD
+# Bin & Name timeWD
 data$TimeWD <- cut(data$TimeWD,
                    c("-6", "2", "5.5", "9", "61"),
                    include.lowest = T,
                    right = F)
+
+data$TimeWD <- revalue(data$TimeWD, c("[-6,2)" = "[0, 2)", "[2,5.5)" = "[2, 5.5)", "[5.5,9)" = "[5.5, 9)", "[9,61]" = "[9, 61]"))
 
 # Rename age bins for reading ease
 data$Age <- as.factor(data$Age)
 
 data$Age <- revalue(data$Age, c("4" = "19-25", "5" = "26-35", "6" = "36-45", "7" = "46-55", "8" = "56-65"))
 
-contingencyTable <- table(data$TimeWD, data$FearCC)
+# Collapse FearCC into binary options
+data <- transform(data, HighCCFear = as.factor(ifelse(FearCC > 3, "Fears CC", "Does not fear CC")))
+
+# Create contingency table
+contingencyTable <- table(data$TimeWD, data$HighCCFear)
 
 print(contingencyTable)
 
-print(chisq.test(contingencyTable))
+# Run chi square test
+chiSquareTest <- chisq.test(contingencyTable)
+
+print(chiSquareTest)
+
+# Run post hoc chi square (pairwise)
+pairwise <- pairwiseNominalIndependence(contingencyTable, fisher=FALSE, gtest=FALSE, chisq=TRUE, cramer=FALSE)
+
+print(pairwise)
+
+cldList(comparison = pairwise$Comparison,
+        p.value    = pairwise$p.adj.Chisq,
+        threshold  = 0.05)

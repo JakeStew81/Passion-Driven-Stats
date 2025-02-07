@@ -14,9 +14,6 @@ summary(aov(wage ~ sex, data = data))
 ggplot(data, aes(x=exper, y=wage)) +
   geom_point()
 
-# Pearson test
-cor.test(data$exper, data$wage, method = "pearson")
-
 # Make table
 table <- table(data$sector, data$satisfaction)
 

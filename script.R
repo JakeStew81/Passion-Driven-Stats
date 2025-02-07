@@ -41,7 +41,7 @@ data$TimeWD <- cut(data$TimeWD,
                    include.lowest = T,
                    right = F)
 
-data$TimeWD <- revalue(data$TimeWD, c("[-6,2)" = "[0, 2)", "[2,5.5)" = "[2, 5.5)", "[5.5,9)" = "[5.5, 9)", "[9,61]" = "[9, 61]"))
+data$TimeWD <- revalue(data$TimeWD, c("[-6,2)" = "[0, 1.5)", "[2,5.5)" = "[2, 5)", "[5.5,9)" = "[5.5, 8.5)", "[9,61]" = "[9, 61]"))
 
 # Rename age bins for reading ease
 data$Age <- as.factor(data$Age)

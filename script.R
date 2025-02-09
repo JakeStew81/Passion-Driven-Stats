@@ -69,3 +69,11 @@ print(pairwise)
 cldList(comparison = pairwise$Comparison,
         p.value    = pairwise$p.adj.Chisq,
         threshold  = 0.05)
+
+by(data, data$Age, function(x)
+  list(chisq.test(table(x$TimeWD, x$HighCCFear)),
+       pairwise <- pairwiseNominalIndependence(table(x$TimeWD, x$HighCCFear),
+                                               fisher=FALSE, gtest=FALSE, chisq=TRUE, cramer=FALSE),
+       cldList(comparison = pairwise$Comparison,
+               p.value    = pairwise$p.adj.Chisq,
+               threshold  = 0.05)))
